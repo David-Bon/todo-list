@@ -1,0 +1,41 @@
+.todo-container {
+    list-style-type: none;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: auto;
+
+    padding: 0px 10px 0px 10px;
+}
+.todo {
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+}
+.btn-cont {
+    margin-left: auto;
+    margin-top: 15px;
+
+
+}
+.todo-btn {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    color: white;
+
+}
+.important {
+    width: 30px;
+    background: forestgreen;
+}
+.delete {
+    background: orangered;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.p {
+    margin-right: 15px;
+    cursor: pointer;
+}
+.done {
+    text-decoration: line-through;
+}

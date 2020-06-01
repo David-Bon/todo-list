@@ -4,11 +4,9 @@ import AppHeader from "../AppHeader/AppHeader";
 import TodoContainer from "../Todo/todo-container";
 
 const App = () => {
-  return (<div className='container row justify-content-center'>
-          <AppHeader/>
-          <TodoContainer/>
-      </div>
-     );
-}
-
+    return <div className='grid-container'>
+        <AppHeader/>
+        <TodoContainer/>
+    </div>;
+};
 export default App;
